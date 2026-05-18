@@ -1,4 +1,4 @@
-# 🐛 IT Clicker v2.0
+# 🐛 IT Clicker v2.1
 
 > The hilariously accurate idle clicker game for IT professionals. Click bugs. Fix bugs. Become the bug.
 
@@ -6,61 +6,63 @@
 
 ---
 
-## What's New in v2.0
+## What's New in v2.1
 
-- 🏢 **20 buildings** (doubled from v1) — Scrum Master, Tech Lead, Blockchain Consultant, Kubernetes Cluster, Legacy Codebase, Offshore Team, IT Helpdesk, Security Audit, Product Manager, and The Quantum Computer
-- 🎮 **Debug Terminal mini-game** — catch falling bugs before they escape for bonus production bursts
-- ✨ **Per-building particle effects** — every building emits unique flying particles toward your counter
-- 🔥 **Combo multiplier** — rapid clicking builds up to ×50 combo with fever-mode animations
-- 🌓 **Light / Dark mode** — toggle between hacker terminal and Presentation Mode
-- 🌧️ **Matrix code rain** — permanent ambient background effects + floating error logs
-- 100 upgrades, 30 achievements, 8 random events
-- Centered click button with hex-burst click effects
+- ⚡ **Performance overhaul** — 3 separate RAF loops, object pooling, 4fps DOM updates. Zero layout jank.
+- 🎮 **3 Mini-games** — Bug Catcher, Stack Trace Typer, Memory Leak (tabbed panel)
+- 🎨 **10 Skins** — buy cosmetic skins for the click button with in-game bugs
+- 📰 **Fixed event banner** — always reserves space, no layout jump. Idle ticker shows IT jokes.
+- ⚙️ **Settings panel** — export/import save as JSON, reset, theme toggle
+- 🌓 **Light/Dark mode** — Hacker terminal vs Presentation Mode
+- 🐛 **Favicon** — proper pixel art bug icon in your browser tab
 
-## Buildings
+## Skins Shop
+
+| Skin | Cost | Description |
+|------|------|-------------|
+| Classic Bug | Free | The OG |
+| Rubber Ducky | 10K | Technically a duck |
+| Blue Screen | 50K | BSOD face |
+| 404 Bug | 200K | Not found |
+| Stack Overflow | 1M | On fire, literally |
+| Dark Pattern | 5M | You agreed by scrolling |
+| 67 Bug | 25M | Vintage 1967. Rare. |
+| Serverless Bug | 100M | Lives in the cloud |
+| Kernel Panic | 500M | System halted |
+| **Big D Bug** | **5B** | The mightiest bug ever compiled |
+
+## Mini-Games
+
+- 🪲 **Bug Catcher** — catch falling bugs before they escape. 5-streak = BUG FEVER (2× production)
+- ⌨️ **Stack Trace Typer** — type IT phrases fast for bug bonuses. Speed multiplier stacks.
+- 🧠 **Memory Leak** — flip card pairs with IT emoji. Solve fast for bigger rewards.
+
+## Buildings (20 total)
 
 | # | Building | BPS |
 |---|----------|-----|
-| 1 | 🦆 Rubber Duck Debugger | 0.5 |
-| 2 | 🔥 Stack Overflow Tab | 2 |
-| 3 | 😓 Overworked Intern | 8 |
-| 4 | ☕ Coffee Machine | 25 |
-| 5 | 📋 Jira Board | 75 |
-| 6 | 🖥️ Server Rack | 200 |
-| 7 | ☁️ Cloud Instance | 600 |
-| 8 | 🤖 AI Copilot | 1,500 |
-| 9 | 🏭 Data Center | 5,000 |
-| 10 | 👁️ The Mainframe | 15,000 |
-| 11 | 📌 Scrum Master | 50,000 |
-| 12 | 👨‍💻 Tech Lead | 150,000 |
-| 13 | 💰 Blockchain Consultant | 500,000 |
-| 14 | ⚙️ Kubernetes Cluster | 1,500,000 |
-| 15 | 💀 Legacy Codebase | 5,000,000 |
-| 16 | 🌍 Offshore Team | 15,000,000 |
-| 17 | 🎧 IT Helpdesk | 50,000,000 |
-| 18 | 🔍 Security Audit | 150,000,000 |
-| 19 | 🔄 Product Manager | 500,000,000 |
-| 20 | ✨ Quantum Computer | 1,500,000,000 |
+| 1–10 | Rubber Duck → The Mainframe | 0.5 → 15K |
+| 11 | Scrum Master | 50K |
+| 12 | Tech Lead | 150K |
+| 13 | Blockchain Consultant | 500K |
+| 14 | Kubernetes Cluster | 1.5M |
+| 15 | Legacy Codebase | 5M |
+| 16 | Offshore Team | 15M |
+| 17 | IT Helpdesk | 50M |
+| 18 | Security Audit | 150M |
+| 19 | Product Manager | 500M |
+| 20 | Quantum Computer | 1.5B |
 
 ## Features
 
-- 🖱️ **Click to earn Bugs** with combo multiplier up to ×50
-- 🎮 **Debug Terminal** — interactive falling-bug mini-game with BUG FEVER mode
-- ✨ **20 unique particle effects** — one per building type flying toward your counter
-- 🌧️ **Matrix rain** + floating error logs as permanent ambient effects
-- 🌓 **Light/Dark mode** — ☀️ Presentation Mode vs 🌙 Hacker Mode
-- 🔄 **Prestige system** — Reboot the System for permanent CPU Core multipliers
-- 🎲 **8 random events** including "Intern Pushed to Main" and "CEO Walked By"
-- 💾 **Auto-saves** to localStorage with offline production catch-up
-- 📴 **100% offline** — pure HTML/JS/CSS, no dependencies
-
-## Tech Stack
-
-- Vanilla HTML5 / CSS3 / JavaScript
-- Multiple canvas layers (background fx, particles, mini-game)
-- CSS custom properties for instant theme switching
-- LocalStorage persistence with offline production calculation
-- Zero external dependencies — single 44MB file (images embedded)
+- 100 upgrades · 30 achievements · 8 random events
+- Prestige system (CPU Cores → permanent multipliers)
+- Combo multiplier up to ×50 with fever mode
+- 20 unique per-building particle effects
+- Matrix code rain + floating error logs background
+- Export/import save as JSON
+- Offline production catch-up on load
+- Zero external dependencies — single HTML file
 
 ---
 
