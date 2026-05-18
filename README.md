@@ -1,81 +1,112 @@
-# 🐛 IT Clicker v2.3
+# 🐛 IT Clicker v3.4
 
-> The hilariously accurate idle clicker game for IT professionals. Watch a desperate IT guy suffer as your empire grows.
+> The hilariously accurate idle clicker game for IT professionals. Build your bug empire, survive BSOD events, unlock legendary heroes, and prestige your way to digital godhood.
 
 **[▶ Play Now on GitHub Pages](https://littlebeansf.github.io/it-clicker)**
 
 ---
 
-## What's New in v2.3
+## What's New in v3.4
 
-### Living Office — Animated Background
-The world canvas now shows a **single evolving office scene** with a central character: a desperate IT support guy who is always present, always suffering.
+### 69 Buildings — 5 Categories
+Buildings are now organized into five tiers with category-specific hero bonuses:
 
-**The IT Guy** — your suffering alter ego:
-- Normally: bobs his head while typing (relatable)
-- Every 8–15s: facepalms dramatically
-- Every 20–40s: picks up the phone with a look of pure dread, then slams it down
-- At game start with no buildings: sleeping at his desk with a ZZZ bubble
-
-**The office fills up as you build:**
-
-| Buildings | Scene |
+| Category | Buildings |
 |---|---|
-| 0 | Empty desk, ERROR on screen, "HANG IN THERE" cat poster, 20 empty coffee cups |
-| 1–9 | Scene crossfades toward full chaotic office (sticky note wall, duck army, cable spaghetti) |
-| 10–34 | Server rack appears, cloud with $$ floats in through window, sunset sky |
-| 35–59 | Further chaos builds toward the quantum stage |
-| 60+ | Full quantum chaos — Kubernetes pipes in ceiling, globe on wall, matrix rain, reality glitching |
+| **Junior** | Rubber Duck, Coffee Machine, Sticky Note, Whiteboard, Rubber Duck Farm, Intern, Help Desk, Git Repo, Slack Channel, Meetup, Docs Site, Bug Report, Code Review |
+| **Infra** | Server Rack, Cloud VM, Load Balancer, Firewall, Backup Server, VPN, Database Cluster, API Gateway, Monitoring Stack, Microservices, CI/CD Pipeline |
+| **People** | Open Office, Meeting Room, Scrum Master, HR Portal, Hackathon, Open Source Project, Bug Bounty, Conference, Startup Incubator, Auto Tests |
+| **Advanced** | Data Center, AI Assistant, Blockchain Node, Quantum Computer, Docker Swarm, Feature Flags, Serverless Functions, Penetration Tester |
+| **Cosmic** | Bug Singularity, Dark Matter Farm, Quantum Entangler, Void Compiler, Warp Drive, Singularity Core, Black Hole Server, Omniscient AI |
 
-**Animated characters:**
-- 👷 Up to 3 walking interns pace back and forth (they flip direction at the walls)
-- 📌 Scrum Master circles the room shouting "VELOCITY!" and "PIVOT!" in speech bubbles
+All 69 buildings have unique **128×128 pixel art** (isometric 16-bit style, dark backgrounds with glow effects).
 
-**Animated props:**
-- 🦆 Rubber ducks bob on the desk
-- ☕ Coffee steam rises from the machine
-- ⚡ Server rack LEDs blink randomly green/red/orange
-- 💵 Dollar-sign clouds drift across the scene
-- ✨ Quantum glitch bars flash across the screen at end-game
-- 🌌 Subtle screen shake when you own 5+ Quantum Computers
+### 189+ Upgrades — 2 Per Building
+Every building has exactly 2 upgrades that visually reflect on the building icon when purchased. Upgrades scale progressively and are sorted by affordability.
 
-**Sky progression:** dawn → day → sunset → night based on game stage
+### 16 Heroes — Named + IT Meme Characters
 
-### Sound System (Web Audio API — no external files)
+| Hero | Bonus |
+|---|---|
+| **Paddl67** | All categories +20% |
+| **Jan the Architect** | Advanced +40% |
+| **LittleBean** | All categories +25% |
+| **The PM** | People +40% |
+| **Big D** | Infra +35% |
+| **Root** | Infra +45% |
+| **Quantum** | Cosmic +60% |
+| **Sebi the Creator** | All categories +30% |
+| **Dome the Big D** | Advanced +45% |
+| **Gaya the PM** | People +45% |
+| **Nik the Marketer** | Junior +50% |
+| **Ladinsch with the Money** | Infra +50% |
+| **Mic the Brain** | Advanced +55% |
+| **Pepe the Coder** | Junior +35% |
+| **Anonymous Hacker** | Cosmic +65% |
+| **The DBA** | Infra +30% |
 
-**Ambient sounds** (all procedurally generated):
-- Office HVAC hum (60Hz drone, always present)
-- Keyboard typing sounds — speed scales with your BPS
-- Server fan whir — pitch and volume scale with server count
+Heroes are recruited after your **first prestige** and each has a unique pixel art portrait.
 
-**SFX:**
-- Satisfying mechanical click on every bug click (pitch rises with combo)
-- Purchase chord (C-E-G arpeggio)
-- Upgrade sparkle (4-note ascending)
-- Achievement fanfare
-- Prestige reboot sweep (dramatic descending → ascending)
-- Bug Fever alarm
-- 3 event sound types: alarm (production down), gentle (pizza), chaos (intern pushed to main)
-- Quantum glitch bursts at end-game
+### 50 Skins
+Unlock custom click button skins as you progress. All skins are pixel art WebP at 128×128, compressed for maximum performance:
 
-**Settings:** Master Volume slider, Ambient on/off, SFX on/off — all saved.
+Matrix, Hackerman, Retro Terminal, Cyberpunk, Win XP, Synthwave, Space Station, Vaporwave, Deep Sea, Steampunk, Lava Lamp, Neon Zen, Minecraft, Bitcoin Bull, Dungeon, Arctic, Nuclear, Corporate, Y2K, Doomscroll — plus 30 more.
+
+### BSOD Event — Redesigned
+- **No more confusion** — bouncing `▼ CLICK HERE ▼` arrow clearly shows the click target
+- **Alarm phase** triggers falling-code rain immediately when the countdown hits zero
+- **Easy difficulty rebalanced** — slower AI, smaller stake, longer timer
+- **Result panel** auto-scrolls into view after each round
+- **Text-only phase indicators** (`!` / `!!` / `!!!`) — no emoji clutter
+- Exploit-proof: BSOD winnings are capped so it cannot be abused for fast prestige
+
+### Anti-Cheat System
+- Autoclicker detection (>20 CPS threshold)
+- Escalating lockouts: 30s → 60s → 120s
+- HMAC-SHA256 signed save exports — tampered saves are rejected on import
 
 ---
 
 ## Full Feature List
 
-- 🏢 Animated office background with living characters
-- 🔊 Web Audio sound system — zero external files
-- 🖱️ 20 buildings: Rubber Duck → Quantum Computer
-- 🎮 3 mini-games: Bug Catcher, Stack Trace Typer, Memory Leak
-- 🎨 10 click button skins
-- 🔄 Prestige system with CPU Core multipliers
-- ⚡ Combo multiplier up to ×50 with fever mode
-- 🏆 30 achievements
-- 📰 8 random events with fixed-height banner
-- ⚙️ Export/import save JSON
-- 🌓 Light / Dark mode
-- 📴 Single HTML file, zero dependencies, works offline
+- 🏢 **69 buildings** across 5 categories (Junior / Infra / People / Advanced / Cosmic)
+- 🦸 **16 heroes** with category-specific bonuses — unlocked after first prestige
+- 🎨 **50 skins** for the click button — all compressed pixel art WebP
+- ⬆️ **189+ upgrades** — 2 per building, visually applied to building icons
+- 🏆 **420 achievements** across 6 categories
+- 🎮 **5 mini-games**: Bug Catcher, Sirtet.exe, Oldschool Snake, BSOD Clicker, Memory Leak
+- 🔄 **Prestige system** — resets progress for permanent CPU Core multipliers; heroes unlock on first prestige
+- ⚡ **Combo system** — up to ×50 multiplier with fever mode; 100% combo triggers a bug explosion animation
+- 📻 **3 background music tracks** — Patch Day Loop (slow) / Scrum Glitch (medium) / Scrum Loop (fast); autoplay from settings
+- 🔊 **Sound system** — ambient sounds + SFX, all controls in settings
+- 🌓 **Light / Dark mode**
+- 📱 **Mobile-first** — fully playable on phones and tablets
+- 🔒 **Signed save export/import** — HMAC-SHA256, tamper-proof
+- 🛡️ **Anti-cheat** — autoclicker detection with escalating lockouts
+- 🔧 **Admin mode** — click the ⓘ button in Settings 69 times
+- 📴 **Single HTML file** — zero dependencies, works offline
+
+---
+
+## Tech Stack
+
+- Pure HTML / CSS / JavaScript — no build step, no framework
+- Web Audio API for all sound (no external audio files for SFX)
+- Canvas API for mini-games
+- WebP pixel art assets (128×128, ~0.18 MB total for all 75 images)
+- HMAC-SHA256 via SubtleCrypto API for save signing
+
+---
+
+## Performance
+
+All pixel art assets were generated at 512×512+ PNG and compressed down to 128×128 WebP at quality 75 — **99.8% size reduction** (113 MB → 0.18 MB). The game is designed to remain fluid even with all 69 buildings purchased and multiple mini-games running simultaneously.
+
+---
+
+## Prestige & Progression
+
+Progression is intentionally slow — you need to genuinely grind to reach prestige. The BSOD event reward cap and anti-cheat system prevent exploit-based skipping. After each prestige you earn a CPU Core multiplier and unlock the hero roster.
 
 ---
 
