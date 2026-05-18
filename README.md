@@ -1,60 +1,81 @@
-# 🐛 IT Clicker v2.2 — Living World
+# 🐛 IT Clicker v2.3
 
-> The hilariously accurate idle clicker game for IT professionals. Watch your empire grow in real time.
+> The hilariously accurate idle clicker game for IT professionals. Watch a desperate IT guy suffer as your empire grows.
 
 **[▶ Play Now on GitHub Pages](https://littlebeansf.github.io/it-clicker)**
 
 ---
 
-## What's New in v2.2 — Living World
+## What's New in v2.3
 
-The center panel now hosts a **living pixel art scene** that evolves as you build your IT empire.
+### Living Office — Animated Background
+The world canvas now shows a **single evolving office scene** with a central character: a desperate IT support guy who is always present, always suffering.
 
-### The Scene Grows With You
+**The IT Guy** — your suffering alter ego:
+- Normally: bobs his head while typing (relatable)
+- Every 8–15s: facepalms dramatically
+- Every 20–40s: picks up the phone with a look of pure dread, then slams it down
+- At game start with no buildings: sleeping at his desk with a ZZZ bubble
 
-| Milestone | What happens |
+**The office fills up as you build:**
+
+| Buildings | Scene |
 |---|---|
-| Start | A lone sad desk. One monitor. One wilting plant. |
-| First Intern | A tiny walking character appears on the office floor |
-| Buildings 1–5 | Floor 1 fills up — sticky notes, Jira wall, coffee machine chaos |
-| First Server Rack | Floor 2 unlocks — server room with blinking lights and a small fire |
-| First AI Copilot | Floor 3 fades in — the innovation lab with a robot assistant |
-| First Scrum Master | A second character circles the office endlessly |
-| First Quantum Computer | The rooftop appears. Reality begins to glitch. |
+| 0 | Empty desk, ERROR on screen, "HANG IN THERE" cat poster, 20 empty coffee cups |
+| 1–9 | Scene crossfades toward full chaotic office (sticky note wall, duck army, cable spaghetti) |
+| 10–34 | Server rack appears, cloud with $$ floats in through window, sunset sky |
+| 35–59 | Further chaos builds toward the quantum stage |
+| 60+ | Full quantum chaos — Kubernetes pipes in ceiling, globe on wall, matrix rain, reality glitching |
 
-### Animated Characters
-- 🧑‍💻 **Intern** — walks back and forth carrying coffee. Occasionally collapses from exhaustion.
-- 📌 **Scrum Master** — circles the floor endlessly, occasionally shouting "VELOCITY!" and "PIVOT!"
+**Animated characters:**
+- 👷 Up to 3 walking interns pace back and forth (they flip direction at the walls)
+- 📌 Scrum Master circles the room shouting "VELOCITY!" and "PIVOT!" in speech bubbles
 
-### Animated Props
-- 🦆 Rubber ducks bob on desks
+**Animated props:**
+- 🦆 Rubber ducks bob on the desk
 - ☕ Coffee steam rises from the machine
-- ⚡ Server rack lights blink randomly (green / red / orange)
-- 💵 Money clouds drift across the upper floors
-- ✨ Matrix glitch overlay pulses when Quantum Computer is owned
+- ⚡ Server rack LEDs blink randomly green/red/orange
+- 💵 Dollar-sign clouds drift across the scene
+- ✨ Quantum glitch bars flash across the screen at end-game
+- 🌌 Subtle screen shake when you own 5+ Quantum Computers
 
-### Sky Progression
-Dawn → Day → Sunset → Night, based on your total production milestones.
+**Sky progression:** dawn → day → sunset → night based on game stage
 
-### Story Popups
-Every first building purchase triggers a comic-strip popup:
-> *"A wild intern appears. They work for 'experience'."*
-> *"The Mainframe awakens. It has seen things. Terrible things."*
-> *"Quantum Computer online. Reality is now a suggestion."*
+### Sound System (Web Audio API — no external files)
+
+**Ambient sounds** (all procedurally generated):
+- Office HVAC hum (60Hz drone, always present)
+- Keyboard typing sounds — speed scales with your BPS
+- Server fan whir — pitch and volume scale with server count
+
+**SFX:**
+- Satisfying mechanical click on every bug click (pitch rises with combo)
+- Purchase chord (C-E-G arpeggio)
+- Upgrade sparkle (4-note ascending)
+- Achievement fanfare
+- Prestige reboot sweep (dramatic descending → ascending)
+- Bug Fever alarm
+- 3 event sound types: alarm (production down), gentle (pizza), chaos (intern pushed to main)
+- Quantum glitch bursts at end-game
+
+**Settings:** Master Volume slider, Ambient on/off, SFX on/off — all saved.
 
 ---
 
-## All Features
+## Full Feature List
 
-- 🏢 Living World canvas — pixel art office that grows with your empire
-- 🖱️ 20 buildings from Rubber Duck to Quantum Computer
+- 🏢 Animated office background with living characters
+- 🔊 Web Audio sound system — zero external files
+- 🖱️ 20 buildings: Rubber Duck → Quantum Computer
 - 🎮 3 mini-games: Bug Catcher, Stack Trace Typer, Memory Leak
-- 🎨 10 skins for the click button
+- 🎨 10 click button skins
 - 🔄 Prestige system with CPU Core multipliers
-- 📰 Fixed-height event banner (no layout jump)
-- ⚙️ Settings: export/import save JSON
+- ⚡ Combo multiplier up to ×50 with fever mode
+- 🏆 30 achievements
+- 📰 8 random events with fixed-height banner
+- ⚙️ Export/import save JSON
 - 🌓 Light / Dark mode
-- ⚡ Optimized: 5 separate loops, object pooling, zero layout thrash
+- 📴 Single HTML file, zero dependencies, works offline
 
 ---
 
