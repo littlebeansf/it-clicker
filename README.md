@@ -1,68 +1,60 @@
-# 🐛 IT Clicker v2.1
+# 🐛 IT Clicker v2.2 — Living World
 
-> The hilariously accurate idle clicker game for IT professionals. Click bugs. Fix bugs. Become the bug.
+> The hilariously accurate idle clicker game for IT professionals. Watch your empire grow in real time.
 
 **[▶ Play Now on GitHub Pages](https://littlebeansf.github.io/it-clicker)**
 
 ---
 
-## What's New in v2.1
+## What's New in v2.2 — Living World
 
-- ⚡ **Performance overhaul** — 3 separate RAF loops, object pooling, 4fps DOM updates. Zero layout jank.
-- 🎮 **3 Mini-games** — Bug Catcher, Stack Trace Typer, Memory Leak (tabbed panel)
-- 🎨 **10 Skins** — buy cosmetic skins for the click button with in-game bugs
-- 📰 **Fixed event banner** — always reserves space, no layout jump. Idle ticker shows IT jokes.
-- ⚙️ **Settings panel** — export/import save as JSON, reset, theme toggle
-- 🌓 **Light/Dark mode** — Hacker terminal vs Presentation Mode
-- 🐛 **Favicon** — proper pixel art bug icon in your browser tab
+The center panel now hosts a **living pixel art scene** that evolves as you build your IT empire.
 
-## Skins Shop
+### The Scene Grows With You
 
-| Skin | Cost | Description |
-|------|------|-------------|
-| Classic Bug | Free | The OG |
-| Rubber Ducky | 10K | Technically a duck |
-| Blue Screen | 50K | BSOD face |
-| 404 Bug | 200K | Not found |
-| Stack Overflow | 1M | On fire, literally |
-| Dark Pattern | 5M | You agreed by scrolling |
-| 67 Bug | 25M | Vintage 1967. Rare. |
-| Serverless Bug | 100M | Lives in the cloud |
-| Kernel Panic | 500M | System halted |
-| **Big D Bug** | **5B** | The mightiest bug ever compiled |
+| Milestone | What happens |
+|---|---|
+| Start | A lone sad desk. One monitor. One wilting plant. |
+| First Intern | A tiny walking character appears on the office floor |
+| Buildings 1–5 | Floor 1 fills up — sticky notes, Jira wall, coffee machine chaos |
+| First Server Rack | Floor 2 unlocks — server room with blinking lights and a small fire |
+| First AI Copilot | Floor 3 fades in — the innovation lab with a robot assistant |
+| First Scrum Master | A second character circles the office endlessly |
+| First Quantum Computer | The rooftop appears. Reality begins to glitch. |
 
-## Mini-Games
+### Animated Characters
+- 🧑‍💻 **Intern** — walks back and forth carrying coffee. Occasionally collapses from exhaustion.
+- 📌 **Scrum Master** — circles the floor endlessly, occasionally shouting "VELOCITY!" and "PIVOT!"
 
-- 🪲 **Bug Catcher** — catch falling bugs before they escape. 5-streak = BUG FEVER (2× production)
-- ⌨️ **Stack Trace Typer** — type IT phrases fast for bug bonuses. Speed multiplier stacks.
-- 🧠 **Memory Leak** — flip card pairs with IT emoji. Solve fast for bigger rewards.
+### Animated Props
+- 🦆 Rubber ducks bob on desks
+- ☕ Coffee steam rises from the machine
+- ⚡ Server rack lights blink randomly (green / red / orange)
+- 💵 Money clouds drift across the upper floors
+- ✨ Matrix glitch overlay pulses when Quantum Computer is owned
 
-## Buildings (20 total)
+### Sky Progression
+Dawn → Day → Sunset → Night, based on your total production milestones.
 
-| # | Building | BPS |
-|---|----------|-----|
-| 1–10 | Rubber Duck → The Mainframe | 0.5 → 15K |
-| 11 | Scrum Master | 50K |
-| 12 | Tech Lead | 150K |
-| 13 | Blockchain Consultant | 500K |
-| 14 | Kubernetes Cluster | 1.5M |
-| 15 | Legacy Codebase | 5M |
-| 16 | Offshore Team | 15M |
-| 17 | IT Helpdesk | 50M |
-| 18 | Security Audit | 150M |
-| 19 | Product Manager | 500M |
-| 20 | Quantum Computer | 1.5B |
+### Story Popups
+Every first building purchase triggers a comic-strip popup:
+> *"A wild intern appears. They work for 'experience'."*
+> *"The Mainframe awakens. It has seen things. Terrible things."*
+> *"Quantum Computer online. Reality is now a suggestion."*
 
-## Features
+---
 
-- 100 upgrades · 30 achievements · 8 random events
-- Prestige system (CPU Cores → permanent multipliers)
-- Combo multiplier up to ×50 with fever mode
-- 20 unique per-building particle effects
-- Matrix code rain + floating error logs background
-- Export/import save as JSON
-- Offline production catch-up on load
-- Zero external dependencies — single HTML file
+## All Features
+
+- 🏢 Living World canvas — pixel art office that grows with your empire
+- 🖱️ 20 buildings from Rubber Duck to Quantum Computer
+- 🎮 3 mini-games: Bug Catcher, Stack Trace Typer, Memory Leak
+- 🎨 10 skins for the click button
+- 🔄 Prestige system with CPU Core multipliers
+- 📰 Fixed-height event banner (no layout jump)
+- ⚙️ Settings: export/import save JSON
+- 🌓 Light / Dark mode
+- ⚡ Optimized: 5 separate loops, object pooling, zero layout thrash
 
 ---
 
