@@ -1,112 +1,149 @@
-# 🐛 IT Clicker v3.4
+# 🐛 IT Clicker v3.4.4
 
-> The hilariously accurate idle clicker game for IT professionals. Build your bug empire, survive BSOD events, unlock legendary heroes, and prestige your way to digital godhood.
+> The hilariously accurate idle clicker game for IT professionals. Build your bug empire, survive BSOD events, recruit legendary heroes, and prestige your way to digital godhood.
 
 **[▶ Play Now on GitHub Pages](https://littlebeansf.github.io/it-clicker)**
 
 ---
 
-## What's New in v3.4
+## What Is It
 
-### 69 Buildings — 5 Categories
-Buildings are now organized into five tiers with category-specific hero bonuses:
+An infinite idle clicker browser game — Cookie Clicker meets IT department. Click bugs, earn bugs, automate production with 69 buildings, recruit 20 heroes, and unlock 50 skins. All in a single self-contained HTML file. No install, no server, no dependencies.
 
-| Category | Buildings |
+---
+
+## Current State — v3.4.4
+
+| Feature | Count / Status |
 |---|---|
-| **Junior** | Rubber Duck, Coffee Machine, Sticky Note, Whiteboard, Rubber Duck Farm, Intern, Help Desk, Git Repo, Slack Channel, Meetup, Docs Site, Bug Report, Code Review |
-| **Infra** | Server Rack, Cloud VM, Load Balancer, Firewall, Backup Server, VPN, Database Cluster, API Gateway, Monitoring Stack, Microservices, CI/CD Pipeline |
-| **People** | Open Office, Meeting Room, Scrum Master, HR Portal, Hackathon, Open Source Project, Bug Bounty, Conference, Startup Incubator, Auto Tests |
-| **Advanced** | Data Center, AI Assistant, Blockchain Node, Quantum Computer, Docker Swarm, Feature Flags, Serverless Functions, Penetration Tester |
-| **Cosmic** | Bug Singularity, Dark Matter Farm, Quantum Entangler, Void Compiler, Warp Drive, Singularity Core, Black Hole Server, Omniscient AI |
+| Buildings | **69** across 5 categories |
+| Heroes | **20** (8 IT memes + 12 named) |
+| Skins | **50** (30 + 20 premium) |
+| Upgrades | **151** (2 per building + click/prestige upgrades) |
+| Achievements | **420** across 14 categories |
+| Mini-games | **4** (Bug Catcher · Sirtet.exe · git_snake.exe · BSOD Clicker) |
+| Prestige system | ✅ Escalating thresholds, CPU Core multipliers |
+| Offline earnings | ✅ Up to 8h, 50% efficiency, modal on return |
+| Anti-cheat | ✅ Autoclicker detection, escalating lockouts |
+| Sound / Music | ✅ 3 background tracks + ambient SFX |
+| Mobile | ✅ Mobile-first responsive layout |
+| Dark / Light mode | ✅ |
+| Admin mode | ✅ Click the ⓘ button 69 times |
+| Save system | ✅ HMAC-SHA256 signed export/import |
 
-All 69 buildings have unique **128×128 pixel art** (isometric 16-bit style, dark backgrounds with glow effects).
+---
 
-### 189+ Upgrades — 2 Per Building
-Every building has exactly 2 upgrades that visually reflect on the building icon when purchased. Upgrades scale progressively and are sorted by affordability.
+## Buildings — 5 Categories
 
-### 16 Heroes — Named + IT Meme Characters
-
-| Hero | Meme Reference | Bonus |
+| Category | Count | Examples |
 |---|---|---|
-| **Linus the Kernel** | Linus Torvalds | All categories +25% |
-| **Jon Skeet** | Stack Overflow legend | Click power +30% |
-| **This Is Fine** | The burning room dog | Junior +40% |
-| **Stallman the GNU** | Richard Stallman | Infra +40% |
-| **Agile Coach Karen** | "Let's synergize the sprint" | People +35% |
-| **The 10x Dev** | "I rewrote it in Rust" | Advanced +35% |
-| **Sudo Sam** | `sudo make me a sandwich` | Advanced +50% |
-| **Segfault Sally** | Core dumped, reality crashed | Cosmic +60% |
-| **Sebi the Creator** | Visionary founder | All categories +30% |
-| **Dome the Big D** | 10x engineer | Advanced +45% |
-| **Gaya the PM** | Feature queen | People +45% |
-| **Nik the Marketer** | Growth hacker | Junior +50% |
-| **Ladinsch with the Money** | VC whale | Infra +50% |
-| **Mic the Brain** | AI overlord | Advanced +55% |
-| **Pepe the Coder** | Eternal dev | Junior +35% |
-| **Anonymous Hacker** | Zero trace | Cosmic +65% |
+| **Junior Dev Zone** | 13 | Rubber Duck, Coffee Machine, Intern, Git Repo, Jira Board |
+| **Infra Layer** | 14 | Server Rack, Cloud VM, Load Balancer, Kubernetes, CI/CD Pipeline |
+| **People Layer** | 14 | Scrum Master, Open Office, HR Portal, Hackathon, Bug Bounty |
+| **Advanced Systems** | 13 | AI Assistant, Blockchain Node, Quantum Computer, Docker Swarm |
+| **Cosmic Tier** | 15 | Bug Singularity, Dark Matter Farm, Void Compiler, Warp Drive, Omniscient AI |
 
-Heroes are recruited after your **first prestige** and each has a unique pixel art portrait.
+All 69 buildings have unique **128×128 pixel art** (isometric 16-bit style, dark backgrounds, neon glow).
 
-### 50 Skins
-Unlock custom click button skins as you progress. All skins are pixel art WebP at 128×128, compressed for maximum performance:
+---
 
-Matrix, Hackerman, Retro Terminal, Cyberpunk, Win XP, Synthwave, Space Station, Vaporwave, Deep Sea, Steampunk, Lava Lamp, Neon Zen, Minecraft, Bitcoin Bull, Dungeon, Arctic, Nuclear, Corporate, Y2K, Doomscroll — plus 30 more.
+## Heroes — 20 Total
 
-### BSOD Event — Redesigned
-- **No more confusion** — bouncing `▼ CLICK HERE ▼` arrow clearly shows the click target
-- **Alarm phase** triggers falling-code rain immediately when the countdown hits zero
-- **Easy difficulty rebalanced** — slower AI, smaller stake, longer timer
-- **Result panel** auto-scrolls into view after each round
-- **Text-only phase indicators** (`!` / `!!` / `!!!`) — no emoji clutter
-- Exploit-proof: BSOD winnings are capped so it cannot be abused for fast prestige
+### IT Meme Heroes (1–8)
+| Hero | Reference | Bonus |
+|---|---|---|
+| Linus the Kernel | Linus Torvalds | All categories +25% |
+| Jon Skeet | Stack Overflow legend | Click power +30% |
+| This Is Fine | Burning room dog | Junior +40% |
+| Stallman the GNU | Richard Stallman | Infra +40% |
+| Agile Coach Karen | "Let's synergize the sprint" | People +35% |
+| The 10x Dev | "Rewrote it in Rust" | Advanced +35% |
+| Sudo Sam | `sudo make me a sandwich` | Advanced +50% |
+| Segfault Sally | Core dumped, reality crashed | Cosmic +60% |
 
-### Anti-Cheat System
-- Autoclicker detection (>20 CPS threshold)
+### Named Heroes (9–20)
+| Hero | Bonus |
+|---|---|
+| Sebi the Creator | All +30% |
+| Dome the Big D | Advanced +45% |
+| Gaya the PM | People +45% |
+| Nik the Marketer | Junior +50% |
+| Ladinsch with the Money | Infra +50% |
+| Mic the Brain | Advanced +55% |
+| Pepe the Coder | Junior +35% |
+| Anonymous Hacker | Cosmic +65% |
+| Jan the Gamer | Click +30% |
+| Mel the Rasta | All +20% |
+| Elia the Intern | Junior +45% |
+| Paddl 67 | Advanced +40% |
+
+Heroes unlock after your **first prestige**. Each has a unique 128×128 isometric pixel art portrait.
+
+---
+
+## Mini-Games
+
+| Game | Description |
+|---|---|
+| **Bug Catcher** | Tap falling bugs before they escape — earn bonus clicks |
+| **Sirtet.exe** | Tetris with a twist — stackable bug blocks |
+| **git_snake.exe** | Classic snake with arrows — eat commits |
+| **BSOD Clicker** | Survival drain bar — click to keep the system alive during a BSOD event. Easy / Hard / PANIC difficulties. Rewards based on performance. |
+
+---
+
+## Prestige System
+
+- Threshold: `1e12 × 1.5^prestige_count` — genuinely hard to reach
+- Reward: CPU Core multipliers (capped at 30 total)
+- Cores per prestige: `min(3, floor(√(runBugs / 1e12)))`
+- BSOD winnings are capped to prevent exploit-based fast prestige
+- Heroes unlock on **first prestige only**
+
+---
+
+## Offline Earnings
+
+When you return after ≥1 minute away, a "Welcome Back" modal shows:
+- Time away (formatted: seconds / minutes / hours)
+- Bugs earned at **50% efficiency** while offline
+- Progress bar showing % of 8h cap used
+- One-tap **Collect** button to apply earnings
+
+---
+
+## Anti-Cheat
+
+- CPS monitoring — threshold: >20 clicks/sec
 - Escalating lockouts: 30s → 60s → 120s
-- HMAC-SHA256 signed save exports — tampered saves are rejected on import
-
----
-
-## Full Feature List
-
-- 🏢 **69 buildings** across 5 categories (Junior / Infra / People / Advanced / Cosmic)
-- 🦸 **16 heroes** with category-specific bonuses — unlocked after first prestige
-- 🎨 **50 skins** for the click button — all compressed pixel art WebP
-- ⬆️ **189+ upgrades** — 2 per building, visually applied to building icons
-- 🏆 **420 achievements** across 6 categories
-- 🎮 **5 mini-games**: Bug Catcher, Sirtet.exe, Oldschool Snake, BSOD Clicker, Memory Leak
-- 🔄 **Prestige system** — resets progress for permanent CPU Core multipliers; heroes unlock on first prestige
-- ⚡ **Combo system** — up to ×50 multiplier with fever mode; 100% combo triggers a bug explosion animation
-- 📻 **3 background music tracks** — Patch Day Loop (slow) / Scrum Glitch (medium) / Scrum Loop (fast); autoplay from settings
-- 🔊 **Sound system** — ambient sounds + SFX, all controls in settings
-- 🌓 **Light / Dark mode**
-- 📱 **Mobile-first** — fully playable on phones and tablets
-- 🔒 **Signed save export/import** — HMAC-SHA256, tamper-proof
-- 🛡️ **Anti-cheat** — autoclicker detection with escalating lockouts
-- 🔧 **Admin mode** — click the ⓘ button in Settings 69 times
-- 📴 **Single HTML file** — zero dependencies, works offline
-
----
-
-## Tech Stack
-
-- Pure HTML / CSS / JavaScript — no build step, no framework
-- Web Audio API for all sound (no external audio files for SFX)
-- Canvas API for mini-games
-- WebP pixel art assets (128×128, ~0.18 MB total for all 75 images)
-- HMAC-SHA256 via SubtleCrypto API for save signing
+- HMAC-SHA256 signed save exports — tampered saves rejected on import
 
 ---
 
 ## Performance
 
-All pixel art assets were generated at 512×512+ PNG and compressed down to 128×128 WebP at quality 75 — **99.8% size reduction** (113 MB → 0.18 MB). The game is designed to remain fluid even with all 69 buildings purchased and multiple mini-games running simultaneously.
+All pixel art: generated at 512×512+ PNG → compressed to **128×128 WebP quality 75**.
+- Total image payload: ~0.2 MB for all 89 images (69 buildings + 20 heroes)
+- Zero external dependencies — game is a **single 5.3 MB HTML file**
+- Canvas-based mini-games pause when not in view
+- RequestAnimationFrame loop with delta-time capping
 
 ---
 
-## Prestige & Progression
+## Tech Stack
 
-Progression is intentionally slow — you need to genuinely grind to reach prestige. The BSOD event reward cap and anti-cheat system prevent exploit-based skipping. After each prestige you earn a CPU Core multiplier and unlock the hero roster.
+- Pure **HTML / CSS / JavaScript** — no build step, no framework, no server
+- Web Audio API — all SFX procedural, background music via AudioContext
+- Canvas API — mini-games, particle system, background animation
+- SubtleCrypto API — HMAC-SHA256 for save signing
+- WebP pixel art — 128×128, quality 75, method 6 (Pillow/libwebp)
+- GitHub Pages for hosting
+
+---
+
+## Save Key
+
+`itclicker_v2_save` — localStorage. Includes: bugs, totalBugs, runBugs, allTimeBugs, buildings, upgrades, achievements, heroes, prestige count, cores, skin, music settings, lastSave timestamp.
 
 ---
 
