@@ -26,24 +26,24 @@ Every building has exactly 2 upgrades that visually reflect on the building icon
 
 ### 16 Heroes — Named + IT Meme Characters
 
-| Hero | Bonus |
-|---|---|
-| **Paddl67** | All categories +20% |
-| **Jan the Architect** | Advanced +40% |
-| **LittleBean** | All categories +25% |
-| **The PM** | People +40% |
-| **Big D** | Infra +35% |
-| **Root** | Infra +45% |
-| **Quantum** | Cosmic +60% |
-| **Sebi the Creator** | All categories +30% |
-| **Dome the Big D** | Advanced +45% |
-| **Gaya the PM** | People +45% |
-| **Nik the Marketer** | Junior +50% |
-| **Ladinsch with the Money** | Infra +50% |
-| **Mic the Brain** | Advanced +55% |
-| **Pepe the Coder** | Junior +35% |
-| **Anonymous Hacker** | Cosmic +65% |
-| **The DBA** | Infra +30% |
+| Hero | Meme Reference | Bonus |
+|---|---|---|
+| **Linus the Kernel** | Linus Torvalds | All categories +25% |
+| **Jon Skeet** | Stack Overflow legend | Click power +30% |
+| **This Is Fine** | The burning room dog | Junior +40% |
+| **Stallman the GNU** | Richard Stallman | Infra +40% |
+| **Agile Coach Karen** | "Let's synergize the sprint" | People +35% |
+| **The 10x Dev** | "I rewrote it in Rust" | Advanced +35% |
+| **Sudo Sam** | `sudo make me a sandwich` | Advanced +50% |
+| **Segfault Sally** | Core dumped, reality crashed | Cosmic +60% |
+| **Sebi the Creator** | Visionary founder | All categories +30% |
+| **Dome the Big D** | 10x engineer | Advanced +45% |
+| **Gaya the PM** | Feature queen | People +45% |
+| **Nik the Marketer** | Growth hacker | Junior +50% |
+| **Ladinsch with the Money** | VC whale | Infra +50% |
+| **Mic the Brain** | AI overlord | Advanced +55% |
+| **Pepe the Coder** | Eternal dev | Junior +35% |
+| **Anonymous Hacker** | Zero trace | Cosmic +65% |
 
 Heroes are recruited after your **first prestige** and each has a unique pixel art portrait.
 
